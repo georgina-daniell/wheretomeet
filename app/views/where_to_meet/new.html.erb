@@ -1,0 +1,13 @@
+<h1>Where are you coming from?</h1>
+
+<%= form_with scope: :where_to_meet, url: where_to_meet_index_path, local: true do |form| %>
+
+  <p>
+    <%= form.label :locations %><br>
+    <%= form.text_area :locations %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
