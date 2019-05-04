@@ -80,9 +80,6 @@ GEM
       railties (>= 3.2, < 6.1)
     erubi (1.8.0)
     execjs (2.7.0)
-    facebook-messenger (1.4.0)
-      httparty (~> 0.13, >= 0.13.7)
-      rack (>= 1.4.5)
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -216,7 +213,6 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   dotenv-rails
-  facebook-messenger
   google_places
   httparty
   jbuilder (~> 2.5)
