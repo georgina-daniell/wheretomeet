@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'where_to_meet#new'
   resources :where_to_meet
+  mount Facebook::Messenger::Server, at: "bot"
 end
